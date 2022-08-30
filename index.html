@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Intrest Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+       
+    <div class="maindiv">
+        <h1>Simple Interest Calculator</h1>
+        <div class = "subdiv">
+       <label for="amount"></label> <br>
+       <input type="number"  id="principal" placeholder="ENTER THE PRINCIPLE AMOUNT">  <br/>
+        <label for="rate"></label><br>
+       <input type="number" id="rate" placeholder="ENTER THE INTEREST RATE"><br> 
+       <label for="time"></label><br>
+       <input type="number" id="years" placeholder="ENTER THE TIME PERIOD"><br> 
+         <br><br>
+        <button id="btn" onclick="compute()">COMPUTE INTEREST</button><br>
+        <div class = "output">
+        <span id="p"></span><br><br>
+       <span id="r"></span><br><br>
+       <span id ="t"></span> <br><br>
+       <span id ="result"></span>
+       </div>
+        </div>
+        <footer id="footer">    &#169 This website is belong to Divyansh Kr. Singh</footer>
+    </div>
+    </body>
+</html>
